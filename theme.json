@@ -1,11 +1,11 @@
 {
   "name": "sy-dark-purple_grape",
   "author": "newproplus",
-  "url": "https://github.com/newproplus/sy-dark-purple",
+  "url": "https://github.com/newproplus/sy-dark-purple_grape",
   "version": "0.4.10",
   "minAppVersion": "2.9.5",
   "displayName": {
-    "default": "Dark Purple grape",
+    "default": "Dark purple grape",
     "zh_CN": "夜紫葡萄"
   },
   "description": {
