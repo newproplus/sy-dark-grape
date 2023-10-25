@@ -1,4 +1,4 @@
-[siyuan-note](https://github.com/siyuan-note/siyuan) Dark Purple grape theme
+[siyuan-note](https://github.com/siyuan-note/siyuan) Dark purple grape theme
 
 ![avatar](preview.png)
 
