@@ -20,7 +20,7 @@
     --b3-theme-secondary: #c7a246;
     --b3-theme-secondary-lightest: #c7a2466f;
     /**编辑器背景颜色*/
-    --b3-theme-background: #3f3f58; /* 主背景颜色 */
+    --b3-theme-background: #2c2c3b; /* 主背景颜色 */
     --b3-theme-background-light: rgb(29, 29, 38, .75);
     --b3-theme-background-lighter: rgb(29, 29, 38, .50);
     --b3-theme-background-lightest: rgb(29, 29, 38, .25);
@@ -63,7 +63,7 @@
     /* Dock栏 */
 
     /* 线条 */
-    --b3-border-color: #7b71eb;
+    --b3-border-color: #4a4391;
 
     /* 滚动条 */
     --b3-scroll-color: rgba(255, 255, 255, 0.541);
@@ -166,13 +166,13 @@
     --b3-protyle-code-linenumber-hl: #26364a;
 
     /* 所见即所得行内元素颜色 */
-    --b3-protyle-inline-strong-color: #bf97f5;
-    --b3-protyle-inline-em-color: #d8c4f1;
+    --b3-protyle-inline-strong-color: #ffffff;
+    --b3-protyle-inline-em-color: #ffffff;
     --b3-protyle-inline-s-color: var(--font-func);
     /* --b3-protyle-inline-link-color: #8ab4f8; */
     --b3-protyle-inline-link-color: var(--font-keyword);
     --b3-protyle-inline-mark-background: rgba(113, 58, 145, 0.7);
-    --b3-protyle-inline-mark-color: #e8eaed;
+    --b3-protyle-inline-mark-color: #ffffff;
     --b3-protyle-inline-tag-color: var(--font-keyword);
     --b3-protyle-inline-blockref-color: var(--font-keyword);
     --b3-protyle-inline-fileref-color: var(--b3-theme-secondary);

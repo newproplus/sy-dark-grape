@@ -2,7 +2,7 @@
 
 ![avatar](preview.png)
 
-[基于 Github 仓库](https://github.com/frostime/sy-dark-purple)
+[基于 sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10， 并大幅度修改了配色。
 
 本主题仿照 Jetbrain 的 Dark Purple 主题制作而成，只包含 css 样式。
 
