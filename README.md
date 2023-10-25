@@ -1,8 +1,8 @@
-[siyuan-note](https://github.com/siyuan-note/siyuan) Dark purple grape theme
+[siyuan-note](https://github.com/siyuan-note/siyuan) Dark grape theme
 
 ![avatar](preview.png)
 
-[Based on sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10, and significantly modified the color scheme
+Based on [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10, and significantly modified the color scheme
 
 This theme is modelled on Jetbrain's Dark Purple theme and contains only css styles.
 
