@@ -1,4 +1,6 @@
-[Github 仓库](https://github.com/frostime/sy-dark-purple)
+[思源笔记](https://github.com/siyuan-note/siyuan) 夜紫葡萄主题
+
+[基于 Github 仓库](https://github.com/frostime/sy-dark-purple)
 
 本主题仿照 Jetbrain 的 Dark Purple 主题制作而成，只包含 css 样式。
 

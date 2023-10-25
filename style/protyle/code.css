@@ -16,3 +16,8 @@ div.code-block>.protyle-linenumber__rows {
 .protyle-linenumber__rows>span::before {
     margin-right: 0.2rem;
 }
+
+/* comment */
+.hljs-comment {
+    color: #9498ca;
+}

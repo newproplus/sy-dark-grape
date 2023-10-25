@@ -1,16 +1,16 @@
 {
-  "name": "sy-dark-purple",
-  "author": "frostime",
-  "url": "https://github.com/frostime/sy-dark-purple",
+  "name": "sy-dark-purple_grape",
+  "author": "newproplus",
+  "url": "https://github.com/newproplus/sy-dark-purple",
   "version": "0.4.10",
   "minAppVersion": "2.9.5",
   "displayName": {
-    "default": "Dark Purple",
-    "zh_CN": "紫夜"
+    "default": "Dark Purple grape",
+    "zh_CN": "夜紫葡萄"
   },
   "description": {
-    "default": "Dark purple theme from jetbrain fleet",
-    "zh_CN": "仿 Jetbrain Fleet 的 Dark purple 主题"
+    "default": "Dark purple grape theme",
+    "zh_CN": "深色葡萄主题"
   },
   "readme": {
     "default": "README.md",
@@ -21,7 +21,7 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://afdian.net/a/frostime"
+      ""
     ]
   },
   "modes": [
