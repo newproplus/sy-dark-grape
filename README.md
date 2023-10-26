@@ -1,12 +1,13 @@
-[siyuan-note](https://github.com/siyuan-note/siyuan) Dark grape theme
+[Siyuan-note](https://github.com/siyuan-note/siyuan) dark grape theme
+
+[中文文档](./README_zh_CN.md)
 
 ![avatar](preview.png)
 
-Based on [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10, and significantly modified the color scheme
+Based on [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10, and significantly modified the color scheme, and the characteristics are as follows:
 
-This theme is modelled on Jetbrain's Dark Purple theme and contains only css styles.
+* Do not modify the style of the user's text within the editor
 
-This theme was inspired in part by the following themes, for which we would like to thank you.
+* There are very few styles in the editor that differ from the default style, such as the font color of the bullet in the list and the background color of the table header.
 
-- [Light Blue](https://github.com/Morganwan90/Darkblue-siyuan-theme)
-- [Tsundoku](https://github.com/Achuan-2/siyuan-themes-tsundoku)
+* Contains only CSS styles, no risk
