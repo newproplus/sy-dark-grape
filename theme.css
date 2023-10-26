@@ -42,13 +42,6 @@
     --font-func: #b6a9c7;
     --font-string: #a9f5a9;
 
-    /* 字体 */
-    /* --b3-font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
-    --b3-font-family-code: "JetBrainsMono-Regular", mononoki, Consolas, "Liberation Mono", Menlo, Courier, monospace, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
-    --b3-font-family-graph: mononoki;
-    --b3-font-family-emoji: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji";
-    --b3-font-family-math: KaTeX_Math; */
-
     /* 左右 dock 和底部 status 栏背景颜色 */
     --b3-toolbar-background: var(--b3-theme-surface);
     /* --b3-toolbar-blur-background: var(--b3-theme-surface); */
@@ -58,8 +51,6 @@
     --b3-toolbar-color: #ffffff;
     --b3-toolbar-hover: #5b41c4;
     --b3-toolbar-left-mac: 69px;
-
-    /* Dock栏 */
 
     /* 线条 */
     --b3-border-color: #4a4391;
