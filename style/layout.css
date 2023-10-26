@@ -56,6 +56,12 @@ div.layout-tab-container {
     background: var(--b3-theme-background);
 }
 
+.b3-dialog__container .b3-dialog__close{
+    z-index: 9;
+    top: 0;
+    right: 5px;
+}
+
 /* Block icon 标题栏 */
 .block__icons {
     background: var(--b3-toolbar-background);
