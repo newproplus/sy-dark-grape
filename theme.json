@@ -2,7 +2,7 @@
   "name": "sy-dark-grape",
   "author": "newproplus",
   "url": "https://github.com/newproplus/sy-dark-grape",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "minAppVersion": "2.9.5",
   "displayName": {
     "default": "Dark grape",
@@ -17,11 +17,11 @@
     "zh_CN": "README_zh_CN.md"
   },
   "funding": {
-    "openCollective": "",
+    "openCollective": "https://opencollective.com/enassi",
     "patreon": "",
     "github": "",
     "custom": [
-      ""
+      "https://afdian.net/a/flutenote"
     ]
   },
   "modes": [
