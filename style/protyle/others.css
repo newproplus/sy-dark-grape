@@ -57,8 +57,24 @@
 }
 
 .b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td, .protyle-wysiwyg table th {
-    border: 2px solid var(--b3-theme-surface-light);
+    border: 2px solid var(--b3-theme-primary-lightest);
     box-sizing: border-box;
 }
 
+.protyle-wysiwyg table thead th{
+    background-color: var(--b3-theme-primary);
+}
 
+/* card */
+.b3-card--current{
+    background-color: var(--b3-theme-primary-lighter);
+}
+
+.b3-card:hover {
+    background-color: var(--b3-theme-primary);
+}
+
+/* table */
+.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td, .protyle-wysiwyg table th {
+    background-color: var(--b3-theme-primary-lightest);
+}

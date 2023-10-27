@@ -24,4 +24,7 @@
     border-left-color: var(--b3-theme-primary);
 }
 
-
+/* 项目符号 */
+.protyle-wysiwyg [data-node-id].li>.protyle-action {
+    color: var(--b3-theme-primary);
+}
