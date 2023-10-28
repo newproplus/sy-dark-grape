@@ -2,7 +2,7 @@
   "name": "sy-dark-grape",
   "author": "newproplus",
   "url": "https://github.com/newproplus/sy-dark-grape",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minAppVersion": "2.9.5",
   "displayName": {
     "default": "Dark grape",
@@ -10,14 +10,14 @@
   },
   "description": {
     "default": "Dark grape theme",
-    "zh_CN": "深色葡萄主题"
+    "zh_CN": "深色葡萄主题，用颜色明确界面的各个元素，避免深色模式下的视觉疲劳。"
   },
   "readme": {
     "default": "README.md",
     "zh_CN": "README_zh_CN.md"
   },
   "funding": {
-    "openCollective": "https://opencollective.com/enassi",
+    "openCollective": "",
     "patreon": "",
     "github": "",
     "custom": [
