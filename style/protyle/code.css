@@ -19,5 +19,5 @@ div.code-block>.protyle-linenumber__rows {
 
 /* comment */
 .hljs-comment {
-    color: #9498ca;
+    color: #9498ca!important;
 }
