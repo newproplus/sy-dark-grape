@@ -1,20 +1,11 @@
-:root {
-    --codeblock-linenumber-width: 1rem;
+/* 代码块 */
+.protyle-wysiwyg div.code-block {
+    background-color: var(--b3-theme-surface-lightest);
 }
 
 .b3-typography pre>code,
 .protyle-wysiwyg div.code-block>.hljs {
-    background-color: var(--b3-theme-surface-lighter);
-    border-radius: 0px;
-    margin-left: var(--codeblock-linenumber-width);
-}
-
-div.code-block>.protyle-linenumber__rows {
-    width: var(--codeblock-linenumber-width);
-}
-
-.protyle-linenumber__rows>span::before {
-    margin-right: 0.2rem;
+    background-color:inherit;
 }
 
 /* comment */

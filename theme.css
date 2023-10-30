@@ -18,10 +18,10 @@
     --b3-theme-primary-lightest: rgba(185,136,214,0.3);
     --b3-theme-secondary: #3d92e0;
     /**编辑器背景颜色*/
-    --b3-theme-background: #372c3b; /* 主背景颜色 */
-    --b3-theme-background-light: rgb(29, 29, 38, .75);
-    --b3-theme-background-lighter: rgb(29, 29, 38, .50);
-    --b3-theme-background-lightest: rgb(29, 29, 38, .25);
+    --b3-theme-background: rgba(55,44,59, 1); /* 主背景颜色 */
+    --b3-theme-background-light: rgb(55,44,59, .75);
+    --b3-theme-background-lighter: rgb(55,44,59, .50);
+    --b3-theme-background-lightest: rgb(55,44,59, .25);
     /* 毕背景颜色稍微亮一点, 用于toolbar menu等背景颜色 */
     --b3-theme-surface: rgb(74, 3, 102);
     --b3-theme-surface-light: rgba(74, 3, 102, 0.86); /* 反链面板背景 */
