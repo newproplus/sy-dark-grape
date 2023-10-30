@@ -1,14 +1,14 @@
 /* 代码块 */
 .protyle-wysiwyg div.code-block {
-    background-color: var(--b3-theme-surface-lightest);
+  background-color: var(--b3-theme-surface-lightest);
 }
 
-.b3-typography pre>code,
-.protyle-wysiwyg div.code-block>.hljs {
-    background-color:inherit;
+.b3-typography pre > code,
+.protyle-wysiwyg div.code-block > .hljs {
+  background-color: inherit;
 }
 
 /* comment */
 .hljs-comment {
-    color: #9498ca!important;
+  color: #9498ca !important;
 }

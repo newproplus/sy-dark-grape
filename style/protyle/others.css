@@ -1,80 +1,91 @@
 /* 面包屑 */
 .protyle-breadcrumb__item:hover,
 .protyle-breadcrumb__item--active {
-    background-color: var(--b3-theme-primary-lighter);
+  background-color: var(--b3-theme-primary-lighter);
 }
 
 /* 高亮区域 */
-.b3-typography span[data-type~=mark][data-type~=strong], .protyle-wysiwyg span[data-type~=mark][data-type~=strong] {
-    color: var(--b3-protyle-inline-strong-color) !important;
+.b3-typography span[data-type~="mark"][data-type~="strong"],
+.protyle-wysiwyg span[data-type~="mark"][data-type~="strong"] {
+  color: var(--b3-protyle-inline-strong-color) !important;
 }
 
-.b3-typography span[data-type~=mark][data-type~=em], .protyle-wysiwyg span[data-type~=mark][data-type~=em] {
-    color: var(--b3-protyle-inline-em-color) !important;
+.b3-typography span[data-type~="mark"][data-type~="em"],
+.protyle-wysiwyg span[data-type~="mark"][data-type~="em"] {
+  color: var(--b3-protyle-inline-em-color) !important;
 }
 
 /* 下划线 */
-.b3-typography u, .b3-typography span[data-type~=u], .protyle-wysiwyg u, .protyle-wysiwyg span[data-type~=u] {
-    border-bottom: 1.5px solid var(--font-func);
+.b3-typography u,
+.b3-typography span[data-type~="u"],
+.protyle-wysiwyg u,
+.protyle-wysiwyg span[data-type~="u"] {
+  border-bottom: 1.5px solid var(--font-func);
 }
 
 /* 空块 */
 .protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty {
-    /* padding: 2px; */
-    border-top: 2px dashed var(--b3-theme-surface);
-    border-bottom: 2px dashed var(--b3-theme-surface);
-    border-left: 4px solid var(--b3-theme-surface);
-    border-right: 4px solid var(--b3-theme-surface);
+  /* padding: 2px; */
+  border-top: 2px dashed var(--b3-theme-surface);
+  border-bottom: 2px dashed var(--b3-theme-surface);
+  border-left: 4px solid var(--b3-theme-surface);
+  border-right: 4px solid var(--b3-theme-surface);
 }
 
 .protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty:after {
-    content: ' ···';
-    opacity: 0.2;
+  content: " ···";
+  opacity: 0.2;
 }
 
 /* 分隔符*/
 /* 分隔符 */
-.protyle-wysiwyg [data-node-id].hr>div::after {
-    background-color: none;
-    border-bottom: 2px dashed var(--b3-theme-on-surface-light);
+.protyle-wysiwyg [data-node-id].hr > div::after {
+  background-color: none;
+  border-bottom: 2px dashed var(--b3-theme-on-surface-light);
 }
-
 
 /* Task list */
-.protyle-task--done>div[data-node-id].p span[data-type="a"],
-.protyle-task--done>div[data-node-id].p span[data-type="block-ref"] {
-    color: #e0957080;
+.protyle-task--done > div[data-node-id].p span[data-type="a"],
+.protyle-task--done > div[data-node-id].p span[data-type="block-ref"] {
+  color: #e0957080;
 }
-.protyle-task--done>div[data-node-id].p span[data-type="block-ref"]::before,
-.protyle-task--done>div[data-node-id].p span[data-type="block-ref"]::after {
-    text-decoration: none;
+.protyle-task--done > div[data-node-id].p span[data-type="block-ref"]::before,
+.protyle-task--done > div[data-node-id].p span[data-type="block-ref"]::after {
+  text-decoration: none;
 }
-
 
 /* 表格 */
-.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td {
-    background: var(--b3-theme-background-lighter);
+.b3-typography table td,
+.b3-typography table th,
+.protyle-wysiwyg table td {
+  background: var(--b3-theme-background-lighter);
 }
 
-.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td, .protyle-wysiwyg table th {
-    border: 2px solid var(--b3-theme-primary-lightest);
-    box-sizing: border-box;
+.b3-typography table td,
+.b3-typography table th,
+.protyle-wysiwyg table td,
+.protyle-wysiwyg table th {
+  border: 2px solid var(--b3-theme-primary-lightest);
+  box-sizing: border-box;
 }
 
-.protyle-wysiwyg table thead th{
-    background-color: var(--b3-theme-primary);
+.protyle-wysiwyg table thead th {
+  background-color: var(--b3-theme-primary);
 }
 
 /* card */
-.b3-card--current{
-    background-color: var(--b3-theme-primary-lighter);
+.b3-card--current {
+  background-color: var(--b3-theme-primary-lighter);
 }
 
 .b3-card:hover {
-    background-color: var(--b3-theme-primary);
+  background-color: var(--b3-theme-primary);
 }
 
 /* table */
-.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td, .protyle-wysiwyg table th {
-    background-color: var(--b3-theme-primary-lightest);
+.b3-typography table td,
+.b3-typography table th,
+.protyle-wysiwyg table td,
+.protyle-wysiwyg table th {
+  background-color: var(--b3-theme-primary-lightest);
 }

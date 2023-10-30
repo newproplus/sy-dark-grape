@@ -1,44 +1,44 @@
 :root {
-    --bracket-color: var(--b3-theme-primary);
+  --bracket-color: var(--b3-theme-primary);
 }
 
 /* 块引用 */
 span[data-type*="block-ref"] span[data-type="a"] {
-    color: var(--b3-theme-primary);
+  color: var(--b3-theme-primary);
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::before {
-    content: "「";
-    position: relative;
-    color: var(--bracket-color);
-    margin-right: 0.1em;
-    font-weight: bold;
-    font-size: 0.75em;
-    top: -0.25em;
+  content: "「";
+  position: relative;
+  color: var(--bracket-color);
+  margin-right: 0.1em;
+  font-weight: bold;
+  font-size: 0.75em;
+  top: -0.25em;
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::after {
-    content: "」";
-    position: relative;
-    color: var(--bracket-color);
-    margin-left: 0.1em;
-    font-weight: bold;
-    font-size: 0.75em;
-    bottom: -0.25em;
+  content: "」";
+  position: relative;
+  color: var(--bracket-color);
+  margin-left: 0.1em;
+  font-weight: bold;
+  font-size: 0.75em;
+  bottom: -0.25em;
 }
 
 .protyle-wysiwyg [data-node-id] .def--mark {
-    background-color: var(--b3-theme-background);
-    border-color: var(--b3-theme-secondary);
-    border-width: 3px;
-    padding: 2px;
-    border-style: solid;
+  background-color: var(--b3-theme-background);
+  border-color: var(--b3-theme-secondary);
+  border-width: 3px;
+  padding: 2px;
+  border-style: solid;
 }
 
 /* tag */
 span[data-type="tag"]::before,
 span[data-type="tag"]::after {
-    content: "#";
-    color: var(--b3-theme-primary);    
-    font-weight: 700;
+  content: "#";
+  color: var(--b3-theme-primary);
+  font-weight: 700;
 }
