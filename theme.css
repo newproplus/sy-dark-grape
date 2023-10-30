@@ -24,9 +24,9 @@
     --b3-theme-background-lightest: rgb(29, 29, 38, .25);
     /* 毕背景颜色稍微亮一点, 用于toolbar menu等背景颜色 */
     --b3-theme-surface: rgb(74, 3, 102);
-    --b3-theme-surface-light: rgba(44, 44, 59, 0.86);
-    --b3-theme-surface-lighter: rgba(44, 44, 59, .50);
-    --b3-theme-surface-lightest: rgba(44, 44, 59, .25);
+    --b3-theme-surface-light: rgba(74, 3, 102, 0.86); /* 反链面板背景 */
+    --b3-theme-surface-lighter: rgba(74, 3, 102, .50); /* 代码块/引用块等的背景 */
+    --b3-theme-surface-lightest: rgba(74, 3, 102, .25); /* 嵌入块背景 */
     --b3-theme-error: #e1667e;
 
     /* 文字颜色 */
