@@ -1,3 +1,8 @@
+/* 标题栏 */
+.toolbar__item {
+  padding: 5px 10px;
+}
+
 /* Resize bar, hover 的时候高亮 */
 div.layout__resize:not(layout__resize--lr):hover::after {
   height: 3px;
