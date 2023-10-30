@@ -1,5 +1,5 @@
 :root {
-    --codeblock-linenumber-width: 3rem;
+    --codeblock-linenumber-width: 1rem;
 }
 
 .b3-typography pre>code,
