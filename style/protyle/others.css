@@ -20,7 +20,7 @@
 .b3-typography span[data-type~="u"],
 .protyle-wysiwyg u,
 .protyle-wysiwyg span[data-type~="u"] {
-  border-bottom: 1.5px solid var(--font-func);
+  border-bottom: 1px solid var(--x-font-func);
 }
 
 /* 空块 */

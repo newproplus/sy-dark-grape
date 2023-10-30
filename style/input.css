@@ -23,7 +23,7 @@ select.b3-select > option:hover {
   background-color: var(--b3-theme-error);
 }
 .b3-switch:checked {
-  background-color: var(--b3-theme-success);
+  background-color: var(--x-theme-success);
 }
 .b3-switch:checked:after {
   background-color: white;

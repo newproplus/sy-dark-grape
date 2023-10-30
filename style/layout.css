@@ -24,7 +24,7 @@ div.layout__resize--lr:hover {
   div[data-type="wnd"]
   > div:first-child
   > ul.layout-tab-bar--readonly {
-  background: var(--b3-toolbar-background);
+  background: var(--b3-theme-surface);
 }
 
 /* 左右 Docker 面板 */
@@ -35,12 +35,13 @@ div.layout-tab-container {
 #dockLeft,
 #dockRight,
 #status {
-  background: var(--b3-toolbar-background);
+  background: var(--b3-theme-surface);
 }
 
 .dock__item--active {
   background-color: var(--b3-theme-primary);
 }
+
 
 /* 折叠箭头图标  */
 .b3-list-item__toggle {
@@ -73,5 +74,5 @@ div.layout-tab-container {
 
 /* Block icon 标题栏 */
 .block__icons {
-  background: var(--b3-toolbar-background);
+  background: var(--b3-theme-surface);
 }

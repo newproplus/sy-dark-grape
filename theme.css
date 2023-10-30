@@ -17,18 +17,15 @@
   --b3-theme-primary-lighter: rgba(185, 136, 214, 0.6);
   --b3-theme-primary-lightest: rgba(185, 136, 214, 0.3);
   --b3-theme-secondary: #3d92e0;
-  /**编辑器背景颜色*/
-  --b3-theme-background: rgba(55, 44, 59, 1); /* 主背景颜色 */
+  --b3-theme-background: rgba(55, 44, 59, 1); /**编辑器背景颜色*/
   --b3-theme-background-light: rgb(55, 44, 59, 0.75);
   --b3-theme-background-lighter: rgb(55, 44, 59, 0.5);
   --b3-theme-background-lightest: rgb(55, 44, 59, 0.25);
-  /* 毕背景颜色稍微亮一点, 用于toolbar menu等背景颜色 */
-  --b3-theme-surface: rgb(74, 3, 102);
+  --b3-theme-surface: rgb(74, 3, 102); /* 工具栏得的背景色 */
   --b3-theme-surface-light: rgba(74, 3, 102, 0.75); /* 反链面板背景 */
   --b3-theme-surface-lighter: rgba(74, 3, 102, 0.5); /* 代码块/引用块等的背景 */
   --b3-theme-surface-lightest: rgba(74, 3, 102, 0.25); /* 嵌入块背景 */
   --b3-theme-error: #e1667e;
-  --b3-theme-success: #22c983; /* 自定义颜色 */
 
   /* 文字颜色 */
   --b3-theme-on-primary: #ffffff;
@@ -38,18 +35,10 @@
   --b3-theme-on-surface-light: rgba(255, 255, 255, 0.68); /* 左侧栏图标 */
   --b3-theme-on-error: #fff;
 
-  --font-keyword: #81b9ee;
-  --font-func: #b6a9c7;
-  --font-string: #a9f5a9;
-
-  /* 左右 dock 和底部 status 栏背景颜色 */
-  --b3-toolbar-background: var(--b3-theme-surface);
-  /* --b3-toolbar-blur-background: var(--b3-theme-surface); */
   /* 顶部工具栏 */
   --b3-toolbar-blur-background: var(--b3-theme-surface);
-  /* toolbar 上图标字体颜色 */
-  --b3-toolbar-color: #ffffff;
-  --b3-toolbar-hover: #7456eb;
+  --b3-toolbar-color: #ffffff; /* toolbar 上图标字体颜色 */
+  --b3-toolbar-hover: #7456eb; /* toolbar 上图标字体颜色 */
   --b3-toolbar-left-mac: 69px;
 
   /* 线条 */
@@ -66,9 +55,8 @@
   --b3-menu-background: var(--b3-theme-surface);
 
   /* 提示 */
-  /* --b3-tooltips-color: var(--b3-theme-surface); */
-  --b3-tooltips-color: var(--b3-theme-on-primary);
   --b3-tooltips-background: var(--b3-theme-primary-light);
+  --b3-tooltips-color: var(--b3-theme-on-primary);  
 
   /* 遮罩 */
   --b3-mask-background: rgba(0, 0, 0, 0.78);
@@ -160,13 +148,12 @@
   /* 所见即所得行内元素颜色 */
   --b3-protyle-inline-strong-color: #ffffff;
   --b3-protyle-inline-em-color: #ffffff;
-  --b3-protyle-inline-s-color: var(--font-func);
-  /* --b3-protyle-inline-link-color: #8ab4f8; */
-  --b3-protyle-inline-link-color: var(--font-keyword);
+  --b3-protyle-inline-s-color: var(--x-font-func);
+  --b3-protyle-inline-link-color: var(--x-font-link);
   --b3-protyle-inline-mark-background: rgba(113, 58, 145, 0.7);
   --b3-protyle-inline-mark-color: #ffffff;
-  --b3-protyle-inline-tag-color: var(--font-keyword);
-  --b3-protyle-inline-blockref-color: var(--font-keyword);
+  --b3-protyle-inline-tag-color: var(--x-font-link);
+  --b3-protyle-inline-blockref-color: var(--x-font-link);
   --b3-protyle-inline-fileref-color: var(--b3-theme-secondary);
 
   /* PDF */
@@ -181,6 +168,11 @@
   --b3-pdf-background6: var(--b3-theme-primary);
   --b3-pdf-background7: #944194;
   --b3-pdf-dark: #212224;
+
+  /* 自定义变量 */
+  --x-theme-success: #22c983;
+  --x-font-link: #81b9ee;
+  --x-font-func: #b6a9c7;
 }
 
 /* https://github.com/siyuan-note/siyuan/issues/6440 */
