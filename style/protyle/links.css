@@ -2,6 +2,13 @@
   --bracket-color: var(--b3-theme-primary);
 }
 
+/* 链接样式 */
+a {
+  outline: 0;
+  text-decoration: none;
+  color: var(--font-keyword);
+}
+
 /* 块引用 */
 span[data-type*="block-ref"] span[data-type="a"] {
   color: var(--b3-theme-primary);

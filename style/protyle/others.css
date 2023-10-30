@@ -25,67 +25,42 @@
 
 /* 空块 */
 .protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty {
-  /* padding: 2px; */
-  border-top: 2px dashed var(--b3-theme-surface);
-  border-bottom: 2px dashed var(--b3-theme-surface);
-  border-left: 4px solid var(--b3-theme-surface);
-  border-right: 4px solid var(--b3-theme-surface);
+  border-top: 2px dashed var(--b3-theme-primary-lightest);
+  border-bottom: 2px dashed var(--b3-theme-primary-lightest);
+  border-left: 4px solid var(--b3-theme-primary-lightest);
+  border-right: 4px solid var(--b3-theme-primary-lightest);
 }
 
+/* 
 .protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty:after {
-  content: " ···";
-  opacity: 0.2;
-}
+  content: " ······";
+  color: var(--b3-theme-primary);
+} 
+*/
 
 /* 分隔符*/
-/* 分隔符 */
 .protyle-wysiwyg [data-node-id].hr > div::after {
-  background-color: none;
   border-bottom: 2px dashed var(--b3-theme-on-surface-light);
-}
-
-/* Task list */
-.protyle-task--done > div[data-node-id].p span[data-type="a"],
-.protyle-task--done > div[data-node-id].p span[data-type="block-ref"] {
-  color: #e0957080;
-}
-.protyle-task--done > div[data-node-id].p span[data-type="block-ref"]::before,
-.protyle-task--done > div[data-node-id].p span[data-type="block-ref"]::after {
-  text-decoration: none;
 }
 
 /* 表格 */
 .b3-typography table td,
 .b3-typography table th,
-.protyle-wysiwyg table td {
-  background: var(--b3-theme-background-lighter);
-}
-
-.b3-typography table td,
-.b3-typography table th,
 .protyle-wysiwyg table td,
 .protyle-wysiwyg table th {
   border: 2px solid var(--b3-theme-primary-lightest);
-  box-sizing: border-box;
+  background-color: var(--b3-theme-primary-lightest);
 }
 
 .protyle-wysiwyg table thead th {
   background-color: var(--b3-theme-primary);
 }
 
-/* card */
+/* 设置里的 card */
 .b3-card--current {
   background-color: var(--b3-theme-primary-lighter);
 }
 
 .b3-card:hover {
   background-color: var(--b3-theme-primary);
-}
-
-/* table */
-.b3-typography table td,
-.b3-typography table th,
-.protyle-wysiwyg table td,
-.protyle-wysiwyg table th {
-  background-color: var(--b3-theme-primary-lightest);
 }

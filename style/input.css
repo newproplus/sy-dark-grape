@@ -11,8 +11,6 @@ select.b3-select > option {
 }
 
 select.b3-select > option:hover {
-  /* color: var(--b3-theme-primary-lighter); */
-  /* background-color: green; */
   color: white;
 }
 
@@ -20,14 +18,18 @@ select.b3-select > option:hover {
   color: var(--b3-theme-secondary);
 }
 
+/* switch */
+.b3-switch {
+  background-color: var(--b3-theme-error);
+}
+.b3-switch:checked {
+  background-color: var(--b3-theme-success);
+}
+.b3-switch:checked:after {
+  background-color: white;
+}
+
 /* 按钮 */
 .b3-button--outline {
   color: var(--b3-theme-on-surface);
-}
-
-/* 链接样式 */
-a {
-  outline: 0;
-  text-decoration: none;
-  color: var(--font-keyword);
 }

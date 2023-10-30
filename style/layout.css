@@ -51,7 +51,6 @@ div.layout-tab-container {
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 2px;
-  /* outline: solid 1px var(--b3-theme-primary-lighter); */
 }
 .backlinkMList > ul > li.b3-list-item {
   background: var(--b3-theme-surface-light);
@@ -60,7 +59,6 @@ div.layout-tab-container {
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 2px;
-  /* outline: solid 1px var(--b3-theme-primary-lighter); */
 }
 
 /* Dialog 对话框 */

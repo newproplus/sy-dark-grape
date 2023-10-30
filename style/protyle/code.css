@@ -1,6 +1,7 @@
 /* 代码块 */
 .protyle-wysiwyg div.code-block {
   background-color: var(--b3-theme-surface-lightest);
+  border: 1px solid var(--b3-theme-primary-lightest);
 }
 
 .b3-typography pre > code,
