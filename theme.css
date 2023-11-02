@@ -4,10 +4,9 @@
 @import "style/layout.css";
 @import "style/input.css";
 
-@import "style/protyle/box.css";
+@import "style/protyle/block.css";
 @import "style/protyle/code.css";
-@import "style/protyle/links.css";
-@import "style/protyle/list.css";
+@import "style/protyle/link.css";
 @import "style/protyle/others.css";
 
 :root {

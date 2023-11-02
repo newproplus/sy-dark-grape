@@ -23,7 +23,7 @@
   border-bottom: 1px solid var(--x-font-func);
 }
 
-/* 空块 */
+/* 空行 */
 .protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty {
   border-top: 2px dashed var(--b3-theme-primary-lightest);
   border-bottom: 2px dashed var(--b3-theme-primary-lightest);
@@ -37,6 +37,11 @@
   color: var(--b3-theme-primary);
 } 
 */
+
+/* 列表的项目符号，无需列表/有序列表/任务列表 */
+.protyle-wysiwyg [data-node-id].li > .protyle-action {
+  color: var(--b3-theme-primary);
+}
 
 /* 分隔符*/
 .protyle-wysiwyg [data-node-id].hr > div::after {
