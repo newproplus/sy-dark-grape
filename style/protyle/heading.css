@@ -1,0 +1,42 @@
+.protyle-wysiwyg .h1,
+.protyle-wysiwyg .h2,
+.protyle-wysiwyg .h3,
+.protyle-wysiwyg .h4,
+.protyle-wysiwyg .h5,
+.protyle-wysiwyg .h6 {
+  padding-left: 2rem;
+  position: relative;
+}
+
+.protyle-wysiwyg .h1::before,
+.protyle-wysiwyg .h2::before,
+.protyle-wysiwyg .h3::before,
+.protyle-wysiwyg .h4::before,
+.protyle-wysiwyg .h5::before,
+.protyle-wysiwyg .h6::before {
+  position: absolute;
+  left: -0.1rem;
+  font-size: 0.8rem;
+  color: var(--b3-toolbar-hover);
+  padding-right: 0.2rem;
+  border-right: 0.2rem solid var(--b3-theme-primary-lighter);
+}
+
+.protyle-wysiwyg .h1::before {
+  content: "H1";
+}
+.protyle-wysiwyg .h2::before {
+  content: "H2";
+}
+.protyle-wysiwyg .h3::before {
+  content: "H3";
+}
+.protyle-wysiwyg .h4::before {
+  content: "H4";
+}
+.protyle-wysiwyg .h5::before {
+  content: "H5";
+}
+.protyle-wysiwyg .h6::before {
+  content: "H6";
+}

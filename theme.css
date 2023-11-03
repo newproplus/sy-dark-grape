@@ -6,6 +6,7 @@
 
 @import "style/protyle/block.css";
 @import "style/protyle/code.css";
+@import "style/protyle/heading.css";
 @import "style/protyle/link.css";
 @import "style/protyle/others.css";
 
@@ -20,10 +21,10 @@
   --b3-theme-background-light: rgb(55, 44, 59, 0.75);
   --b3-theme-background-lighter: rgb(55, 44, 59, 0.5);
   --b3-theme-background-lightest: rgb(55, 44, 59, 0.25);
-  --b3-theme-surface: rgb(55, 44, 80); /* 工具栏得的背景色 */
-  --b3-theme-surface-light: rgba(55, 44, 80, 0.75); /* 反链面板背景 */
-  --b3-theme-surface-lighter: rgba(55, 44, 80, 0.5); /* 代码块/引用块等的背景 */
-  --b3-theme-surface-lightest: rgba(55, 44, 80, 0.25); /* 嵌入块背景 */
+  --b3-theme-surface: rgb(62, 40, 80); /* 工具栏得的背景色 */
+  --b3-theme-surface-light: rgba(62, 40, 80, 0.75); /* 反链面板背景 */
+  --b3-theme-surface-lighter: rgba(62, 40, 80, 0.5); /* 代码块/引用块等的背景 */
+  --b3-theme-surface-lightest: rgba(62, 40, 80, 0.25); /* 嵌入块背景 */
   --b3-theme-error: #e1667e;
 
   /* 文字颜色 */
