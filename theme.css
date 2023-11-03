@@ -20,10 +20,10 @@
   --b3-theme-background-light: rgb(55, 44, 59, 0.75);
   --b3-theme-background-lighter: rgb(55, 44, 59, 0.5);
   --b3-theme-background-lightest: rgb(55, 44, 59, 0.25);
-  --b3-theme-surface: rgb(74, 3, 102); /* 工具栏得的背景色 */
-  --b3-theme-surface-light: rgba(74, 3, 102, 0.75); /* 反链面板背景 */
-  --b3-theme-surface-lighter: rgba(74, 3, 102, 0.5); /* 代码块/引用块等的背景 */
-  --b3-theme-surface-lightest: rgba(74, 3, 102, 0.25); /* 嵌入块背景 */
+  --b3-theme-surface: rgb(55, 44, 80); /* 工具栏得的背景色 */
+  --b3-theme-surface-light: rgba(55, 44, 80, 0.75); /* 反链面板背景 */
+  --b3-theme-surface-lighter: rgba(55, 44, 80, 0.5); /* 代码块/引用块等的背景 */
+  --b3-theme-surface-lightest: rgba(55, 44, 80, 0.25); /* 嵌入块背景 */
   --b3-theme-error: #e1667e;
 
   /* 文字颜色 */
@@ -55,7 +55,7 @@
 
   /* 提示 */
   --b3-tooltips-background: var(--b3-theme-primary-light);
-  --b3-tooltips-color: var(--b3-theme-on-primary);  
+  --b3-tooltips-color: var(--b3-theme-on-primary);
 
   /* 遮罩 */
   --b3-mask-background: rgba(0, 0, 0, 0.78);
@@ -147,9 +147,9 @@
   /* 所见即所得行内元素颜色 */
   --b3-protyle-inline-strong-color: #ffffff;
   --b3-protyle-inline-em-color: #ffffff;
-  --b3-protyle-inline-s-color: var(--x-font-func);
+  --b3-protyle-inline-s-color: var(--b3-theme-error); /* 删除线 */
   --b3-protyle-inline-link-color: var(--x-font-link);
-  --b3-protyle-inline-mark-background: rgba(113, 58, 145, 0.7);
+  --b3-protyle-inline-mark-background: var(--b3-theme-primary-light);
   --b3-protyle-inline-mark-color: #ffffff;
   --b3-protyle-inline-tag-color: var(--x-font-link);
   --b3-protyle-inline-blockref-color: var(--x-font-link);
@@ -171,7 +171,7 @@
   /* 自定义变量 */
   --x-theme-success: #22c983;
   --x-font-link: #81b9ee;
-  --x-font-func: #b6a9c7;
+  --x-underline-color: var(--b3-theme-primary);
 }
 
 /* https://github.com/siyuan-note/siyuan/issues/6440 */

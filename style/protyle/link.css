@@ -46,6 +46,10 @@ span[data-type*="block-ref"] span[data-type="a"] {
 span[data-type="tag"]::before,
 span[data-type="tag"]::after {
   content: "#";
-  color: var(--b3-theme-primary);
+  color: var(--x-theme-success);
   font-weight: 700;
+}
+
+.protyle-wysiwyg [data-node-id] span[data-type~=tag] {
+  color: var(--x-underline-color);
 }

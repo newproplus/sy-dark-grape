@@ -9,6 +9,11 @@
   background-color: inherit;
 }
 
+.b3-typography .hljs,
+.protyle-wysiwyg .hljs {
+  padding: 1.5em 0.5rem 0.5rem 0.5rem;
+}
+
 /* comment */
 .hljs-comment {
   color: #9498ca !important;
