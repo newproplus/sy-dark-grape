@@ -1,4 +1,15 @@
-/* 标题栏 */
+/* body */
+body {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--b3-theme-surface-light),
+    var(--b3-theme-surface-light),
+    var(--b3-border-color)
+  );
+}
+
+/* 标题栏增大图标按钮的面积 */
 .toolbar__item {
   padding: 5px 10px;
 }
@@ -27,25 +38,36 @@ div.layout__resize--lr:hover {
   background: var(--b3-theme-surface);
 }
 
-/* 左右 Docker 面板 */
-div.layout-tab-container {
-  background: var(--b3-theme-background);
-}
-
-#dockLeft,
-#dockRight,
-#status {
-  background: var(--b3-theme-surface);
+/* dock 面板 */
+.dock {
+  background-color: transparent;
 }
 
 .dock__item--active {
   background-color: var(--b3-theme-primary);
 }
 
+/* 顶部工具栏和底部状态栏 */
+.toolbar,
+.status {
+  background-color: transparent;
+}
+
+/* 左右标签页面板 */
+.layout__dockl,
+.layout__dockr {
+  background-color: var(--b3-theme-surface-lighter);
+}
+
+/* 左右标签页面板里的容器及其标题栏 */
+.layout-tab-container,
+.block__icons {
+  background-color: inherit !important;
+}
 
 /* 折叠箭头图标  */
 .b3-list-item__toggle {
-  background: var(--b3-border-color);
+  background: var(--b3-theme-primary-lighter);
   border-radius: 5px;
 }
 
@@ -70,9 +92,4 @@ div.layout-tab-container {
 /* Dialog 对话框 */
 .b3-dialog__container {
   background: var(--b3-theme-background);
-}
-
-/* Block icon 标题栏 */
-.block__icons {
-  background: var(--b3-theme-surface);
 }
