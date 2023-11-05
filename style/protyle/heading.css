@@ -29,18 +29,23 @@
 .protyle-wysiwyg .h1::before {
   content: "H1";
 }
+
 .protyle-wysiwyg .h2::before {
   content: "H2";
 }
+
 .protyle-wysiwyg .h3::before {
   content: "H3";
 }
+
 .protyle-wysiwyg .h4::before {
   content: "H4";
 }
+
 .protyle-wysiwyg .h5::before {
   content: "H5";
 }
+
 .protyle-wysiwyg .h6::before {
   content: "H6";
 }

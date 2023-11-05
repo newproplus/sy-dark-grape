@@ -56,12 +56,12 @@
 */
 
 /* 列表的项目符号，无需列表/有序列表/任务列表 */
-.protyle-wysiwyg [data-node-id].li > .protyle-action {
+.protyle-wysiwyg [data-node-id].li>.protyle-action {
   color: var(--b3-theme-primary);
 }
 
 /* 分隔符*/
-.protyle-wysiwyg [data-node-id].hr > div::after {
+.protyle-wysiwyg [data-node-id].hr>div::after {
   border-bottom: 2px dashed var(--b3-theme-on-surface-light);
 }
 

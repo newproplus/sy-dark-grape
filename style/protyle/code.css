@@ -8,8 +8,8 @@
   border: 1px solid var(--b3-theme-primary-lightest);
 }
 
-.b3-typography pre > code,
-.protyle-wysiwyg div.code-block > .hljs {
+.b3-typography pre>code,
+.protyle-wysiwyg div.code-block>.hljs {
   background-color: inherit;
 }
 

@@ -10,11 +10,11 @@
 }
 
 /* 下拉框 */
-select.b3-select > option {
+select.b3-select>option {
   background: var(--b3-theme-surface);
 }
 
-select.b3-select > option:hover {
+select.b3-select>option:hover {
   color: white;
 }
 
@@ -26,9 +26,11 @@ select.b3-select > option:hover {
 .b3-switch {
   background-color: var(--b3-theme-error);
 }
+
 .b3-switch:checked {
   background-color: var(--x-theme-success);
 }
+
 .b3-switch:checked:after {
   background-color: white;
 }

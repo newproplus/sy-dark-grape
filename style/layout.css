@@ -5,12 +5,10 @@
 /* body */
 body {
   background-color: transparent;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--b3-theme-surface-light),
-    var(--b3-theme-surface-light),
-    var(--b3-border-color)
-  );
+  background-image: linear-gradient(to bottom right,
+      var(--b3-theme-surface-light),
+      var(--b3-theme-surface-light),
+      var(--b3-border-color));
 }
 
 /* 标题栏增大图标按钮的面积 */
@@ -19,11 +17,13 @@ body {
 }
 
 /* Resize bar, hover 的时候高亮 */
+/* 垂直 */
 div.layout__resize:not(layout__resize--lr):hover::after {
   height: 3px;
   background: var(--b3-theme-primary);
 }
 
+/* 水平 */
 div.layout__resize--lr {
   width: 3px;
   margin: 0 -3px 0 0;
@@ -34,11 +34,7 @@ div.layout__resize--lr:hover {
 }
 
 /* 标签页空白部分的颜色和 toolbar 部分一致 */
-#layouts
-  .layout__center
-  div[data-type="wnd"]
-  > div:first-child
-  > ul.layout-tab-bar--readonly {
+#layouts .layout__center div[data-type="wnd"]>div:first-child>ul.layout-tab-bar--readonly {
   background: var(--b3-theme-surface);
 }
 
@@ -76,7 +72,7 @@ div.layout__resize--lr:hover {
 }
 
 /* 反链面板 */
-.backlinkList > ul > li.b3-list-item {
+.backlinkList>ul>li.b3-list-item {
   background: var(--b3-theme-surface-light);
   margin-top: 5px;
   margin-bottom: 5px;
@@ -84,7 +80,8 @@ div.layout__resize--lr:hover {
   padding-bottom: 2px;
   border-radius: 2px;
 }
-.backlinkMList > ul > li.b3-list-item {
+
+.backlinkMList>ul>li.b3-list-item {
   background: var(--b3-theme-surface-light);
   margin-top: 5px;
   margin-bottom: 5px;
