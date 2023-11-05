@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2023 https://github.com/newproplus
+*/
+
 :root {
   --bracket-color: var(--b3-theme-primary);
 }
@@ -50,6 +54,6 @@ span[data-type="tag"]::after {
   font-weight: 700;
 }
 
-.protyle-wysiwyg [data-node-id] span[data-type~=tag] {
+.protyle-wysiwyg [data-node-id] span[data-type~="tag"] {
   color: var(--x-underline-color);
 }

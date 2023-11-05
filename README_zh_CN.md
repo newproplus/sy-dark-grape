@@ -1,4 +1,4 @@
-[思源笔记](https://github.com/siyuan-note/siyuan) 夜紫葡萄主题
+[思源笔记](https://github.com/siyuan-note/siyuan) 夜葡萄主题
 
 [English document](./README.md)
 

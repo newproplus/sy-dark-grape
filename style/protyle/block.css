@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2023 https://github.com/newproplus
+*/
+
 /* 引用块 */
 :root {
   --background-highlight: var(--b3-theme-surface);
@@ -32,8 +36,7 @@
   /* max-width: 100%; */
 }
 
-/* Copy from Tsundoku
- */
+/* Copy from Tsundoku */
 .protyle-wysiwyg
   [data-node-id].render-node[data-type="NodeBlockQueryEmbed"]
   > .protyle-wysiwyg__embed {
@@ -44,7 +47,6 @@
 }
 
 /* 被选中的块高亮 */
-
 .protyle-wysiwyg--hl,
 .protyle-wysiwyg--hl .hljs {
   background-color: var(--background-highlight) !important;

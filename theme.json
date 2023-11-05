@@ -2,11 +2,11 @@
   "name": "sy-dark-grape",
   "author": "newproplus",
   "url": "https://github.com/newproplus/sy-dark-grape",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "minAppVersion": "2.9.5",
   "displayName": {
     "default": "Dark grape",
-    "zh_CN": "夜紫葡萄"
+    "zh_CN": "夜葡萄"
   },
   "description": {
     "default": "Dark grape theme",
