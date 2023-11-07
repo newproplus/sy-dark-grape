@@ -4,7 +4,7 @@
 
 /* 代码块 */
 .protyle-wysiwyg div.code-block {
-  background-color: var(--b3-theme-surface-lightest);
+  background-color: var(--b3-theme-surface-lighter);
   border: 1px solid var(--b3-theme-primary-lightest);
 }
 
