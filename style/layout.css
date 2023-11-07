@@ -11,11 +11,6 @@ body {
       var(--b3-border-color));
 }
 
-/* 标题栏增大图标按钮的面积 */
-.toolbar__item {
-  padding: 5px 10px;
-}
-
 /* Resize bar, hover 的时候高亮 */
 /* 垂直 */
 div.layout__resize:not(layout__resize--lr):hover::after {
