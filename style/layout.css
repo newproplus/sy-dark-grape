@@ -2,12 +2,16 @@
  * Copyright (c) 2023 https://github.com/newproplus
 */
 
-/* body */
+/* 大背景 */
+html {
+  background-color: #333333;
+}
+
 body {
   background-color: transparent;
   background-image: linear-gradient(to bottom right,
       var(--b3-theme-surface-light),
-      var(--b3-theme-surface-light),
+      var(--b3-theme-primary-lighter),
       var(--b3-border-color));
 }
 
