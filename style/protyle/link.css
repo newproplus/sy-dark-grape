@@ -14,10 +14,6 @@ a {
 }
 
 /* 块引用 */
-span[data-type*="block-ref"] span[data-type="a"] {
-  color: var(--b3-theme-primary);
-}
-
 .protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::before {
   content: "「";
   position: relative;
@@ -38,6 +34,7 @@ span[data-type*="block-ref"] span[data-type="a"] {
   bottom: -0.25em;
 }
 
+/* 标记 */
 .protyle-wysiwyg [data-node-id] .def--mark {
   background-color: var(--b3-theme-background);
   border-color: var(--b3-theme-secondary);

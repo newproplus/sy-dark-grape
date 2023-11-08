@@ -37,19 +37,16 @@ div.layout__resize--lr:hover {
   background: var(--b3-theme-surface);
 }
 
-/* dock 面板 */
+/* dock 面板 / 顶部工具栏和底部状态栏背景透明 */
+.toolbar,
+.status,
 .dock {
   background-color: transparent;
 }
 
+/* dock 面板 */
 .dock__item--active {
   background-color: var(--b3-theme-primary);
-}
-
-/* 顶部工具栏和底部状态栏 */
-.toolbar,
-.status {
-  background-color: transparent;
 }
 
 /* 左右标签页面板 */
@@ -73,18 +70,18 @@ div.layout__resize--lr:hover {
 /* 反链面板 */
 .backlinkList>ul>li.b3-list-item {
   background: var(--b3-theme-surface-light);
-  margin-top: 5px;
+  /* margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
-  border-radius: 2px;
+  border-radius: 2px; */
 }
 
 .backlinkMList>ul>li.b3-list-item {
   background: var(--b3-theme-surface-light);
-  margin-top: 5px;
+  /* margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
-  border-radius: 2px;
+  border-radius: 2px; */
 }

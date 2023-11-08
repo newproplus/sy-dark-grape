@@ -20,5 +20,5 @@
 
 /* comment */
 .hljs-comment {
-  color: #9498ca !important;
+  color: var(--b3-theme-primary-light) !important;
 }
