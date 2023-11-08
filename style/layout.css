@@ -49,9 +49,10 @@ div.layout__resize--lr:hover {
   background-color: var(--b3-theme-primary);
 }
 
-/* 左右标签页面板 */
+/* 左右标签页面板和反链面板的背景色 */
 .layout__dockl,
-.layout__dockr {
+.layout__dockr,
+.sy__backlink {
   background-color: var(--b3-theme-surface-lighter);
 }
 
@@ -65,23 +66,4 @@ div.layout__resize--lr:hover {
 .b3-list-item__toggle {
   background: var(--b3-theme-primary-lighter);
   border-radius: 5px;
-}
-
-/* 反链面板 */
-.backlinkList>ul>li.b3-list-item {
-  background: var(--b3-theme-surface-light);
-  /* margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 2px; */
-}
-
-.backlinkMList>ul>li.b3-list-item {
-  background: var(--b3-theme-surface-light);
-  /* margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 2px; */
 }
