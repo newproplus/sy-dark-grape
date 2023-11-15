@@ -25,7 +25,7 @@
   --b3-theme-error: #e1667e;
 
   /* 文字颜色 */
-  --b3-theme-on-secondary: #d9fff7;
+  --b3-theme-on-secondary: #c3e9e1;
   --b3-theme-on-surface: var(--b3-theme-on-secondary);
 
   /* 顶部工具栏 */
@@ -34,31 +34,18 @@
   /* 线条 */
   --b3-border-color: #4a4391;
 
+  /* 列表 */
+  --b3-list-hover: var(--b3-toolbar-hover);
 
   /* 图表颜色 */
   --b3-graph-heading-point: #8957e5;
-
-  /* 代码片段背景 */
-  --b3-protyle-code-background: rgba(133, 157, 180, 0.336);
 
   /* 所见即所得行内元素颜色 */
   --b3-protyle-inline-strong-color: var(--b3-theme-on-background);
   --b3-protyle-inline-em-color: var(--b3-theme-on-background);
   --b3-protyle-inline-s-color: var(--b3-theme-error);
-  --b3-protyle-inline-link-color: var(--x-font-link);
-  --b3-protyle-inline-mark-background: var(--b3-theme-primary-light);
-  --b3-protyle-inline-tag-color: var(--x-font-link);
-  --b3-protyle-inline-blockref-color: var(--x-font-link);
-
-  /* PDF */
-  --b3-pdf-background3: var(--b3-theme-secondary);
-  --b3-pdf-background4: #65b84d;
-  --b3-pdf-background5: #f5539e;
-  --b3-pdf-background6: var(--b3-theme-primary);
-  --b3-pdf-background7: #944194;
-
-  /* 自定义变量 */
-  --x-theme-success: #22c983;
-  --x-font-link: rgb(129, 185, 238);
-  --x-underline-color: var(--b3-theme-primary);
+  --b3-protyle-inline-link-color: var(--b3-theme-on-secondary);
+  --b3-protyle-inline-mark-background: var(--b3-theme-primary-lighter);
+  --b3-protyle-inline-tag-color: var(--b3-theme-on-secondary);
+  --b3-protyle-inline-blockref-color: var(--b3-theme-on-secondary);
 }

@@ -18,17 +18,17 @@ select.b3-select>option:hover {
   color: white;
 }
 
-.b3-menu__item--selected {
-  color: var(--b3-theme-secondary);
-}
-
 /* switch */
 .b3-switch {
   background-color: var(--b3-theme-error);
 }
 
+.b3-switch:after {
+  border: none;
+}
+
 .b3-switch:checked {
-  background-color: var(--x-theme-success);
+  background-color: var(--b3-theme-secondary);
 }
 
 .b3-switch:checked:after {

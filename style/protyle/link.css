@@ -2,22 +2,18 @@
  * Copyright (c) 2023 https://github.com/newproplus
 */
 
-:root {
-  --bracket-color: var(--b3-theme-primary);
-}
-
 /* 链接 */
 a {
   outline: 0;
   text-decoration: none;
-  color: var(--x-font-link);
+  color: var(--b3-theme-on-secondary);
 }
 
 /* 块引用 */
 .protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::before {
   content: "「";
   position: relative;
-  color: var(--bracket-color);
+  color: var(--b3-theme-secondary);
   margin-right: 0.1em;
   font-weight: bold;
   font-size: 0.75em;
@@ -27,7 +23,7 @@ a {
 .protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::after {
   content: "」";
   position: relative;
-  color: var(--bracket-color);
+  color: var(--b3-theme-secondary);
   margin-left: 0.1em;
   font-weight: bold;
   font-size: 0.75em;
@@ -35,22 +31,21 @@ a {
 }
 
 /* 标记 */
-.protyle-wysiwyg [data-node-id] .def--mark {
-  background-color: var(--b3-theme-background);
-  border-color: var(--b3-theme-secondary);
-  border-width: 3px;
-  padding: 2px;
-  border-style: solid;
+.b3-typography mark,
+.b3-typography span[data-type~=mark],
+.protyle-wysiwyg mark,
+.protyle-wysiwyg span[data-type~=mark] {
+  border: 1px dashed var(--b3-theme-secondary);
 }
 
 /* tag */
 span[data-type="tag"]::before,
 span[data-type="tag"]::after {
   content: "#";
-  color: var(--x-theme-success);
+  color: var(--b3-theme-secondary);
   font-weight: 700;
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type~="tag"] {
-  color: var(--x-underline-color);
+  color: var(--b3-theme-primary);
 }

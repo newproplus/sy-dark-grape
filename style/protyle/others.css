@@ -24,19 +24,19 @@
 .b3-typography span[data-type~="u"],
 .protyle-wysiwyg u,
 .protyle-wysiwyg span[data-type~="u"] {
-  border-bottom: 1px solid var(--x-underline-color);
+  border-bottom: 1px solid var(--b3-theme-secondary);
 }
 
 /* 上标 */
 .b3-typography span[data-type~="sup"],
 .protyle-wysiwyg span[data-type~="sup"] {
-  color: var(--b3-theme-primary);
+  color: var(--b3-theme-secondary);
 }
 
 /* 下标 */
 .b3-typography span[data-type~="sub"],
 .protyle-wysiwyg span[data-type~="sub"] {
-  color: var(--b3-theme-primary);
+  color: var(--b3-theme-secondary);
   bottom: -0.4rem;
 }
 
@@ -47,13 +47,6 @@
   border-left: 4px solid var(--b3-theme-primary-lightest);
   border-right: 4px solid var(--b3-theme-primary-lightest);
 }
-
-/* 
-.protyle-wysiwyg [data-node-id] [spellcheck="false"]:empty:after {
-  content: " ······";
-  color: var(--b3-theme-primary);
-} 
-*/
 
 /* 列表的项目符号，无需列表/有序列表/任务列表 */
 .protyle-wysiwyg [data-node-id].li>.protyle-action {
@@ -71,7 +64,7 @@
 .protyle-wysiwyg kbd,
 .protyle-wysiwyg span[data-type~="kbd"] {
   background-color: var(--b3-protyle-code-background);
-  border: solid 1px var(--b3-theme-primary);
+  border: solid 1px var(--b3-theme-secondary);
 }
 
 /* 表格 */
