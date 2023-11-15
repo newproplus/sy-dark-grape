@@ -34,14 +34,6 @@
   /* 线条 */
   --b3-border-color: #4a4391;
 
-  /* 列表 */
-  --b3-list-hover: var(--b3-toolbar-hover);
-
-  /* 菜单 */
-  --b3-menu-background: var(--b3-theme-surface-light);
-
-  /* 提示 */
-  --b3-tooltips-background: var(--b3-theme-surface);
 
   /* 图表颜色 */
   --b3-graph-heading-point: #8957e5;

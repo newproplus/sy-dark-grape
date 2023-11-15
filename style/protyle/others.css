@@ -94,3 +94,8 @@
 .b3-card:hover {
   background-color: var(--b3-theme-primary);
 }
+
+/* 工具条 */
+.protyle-toolbar {
+  background-color: var(--b3-border-color);
+}

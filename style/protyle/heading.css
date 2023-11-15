@@ -42,6 +42,7 @@
 .protyle-wysiwyg .h4::before {
   content: "H4";
   border-bottom: 0.25rem dotted var(--b3-theme-primary);
+  padding-right: 0.2rem;
 }
 
 .protyle-wysiwyg .h5::before {
