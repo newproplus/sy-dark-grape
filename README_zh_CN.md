@@ -12,6 +12,6 @@
 
 * 用颜色明确界面的各个元素，增加渐变和半透明效果，避免深色模式下的视觉疲劳。
   
-* 只包含 css 样式，无风险
+* 主要的部分用各种紫色， 点缀的部分用绿色。
 
-本项目最初基于 [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10， 进行了大幅度修改和重构。
+本项目代码最初基于 [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10， 进行了大幅度修改和重构。

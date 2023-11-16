@@ -55,7 +55,7 @@
 
 /* 分隔符*/
 .protyle-wysiwyg [data-node-id].hr>div::after {
-  border-bottom: 2px dashed var(--b3-theme-on-surface-light);
+  border-bottom: 0.5rem dotted var(--b3-theme-secondary);
 }
 
 /* 键盘 */

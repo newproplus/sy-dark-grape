@@ -21,33 +21,30 @@
   position: absolute;
   left: -0.1rem;
   font-size: 0.8rem;
-  color: var(--b3-toolbar-hover);
+  background: var(--b3-toolbar-hover);
+  padding: 0 0.25rem;
+  border-color: var(--b3-theme-secondary);
+  border-bottom-style: solid;
 }
 
 .protyle-wysiwyg .h1::before {
   content: "H1";
-  border-bottom: 0.7rem solid var(--b3-theme-secondary)
 }
 
 .protyle-wysiwyg .h2::before {
   content: "H2";
-  border-bottom: 0.6rem dotted var(--b3-theme-secondary);
 }
 
 .protyle-wysiwyg .h3::before {
   content: "H3";
-  border-bottom: 0.3rem dotted var(--b3-theme-secondary);
 }
 
 .protyle-wysiwyg .h4::before {
   content: "H4";
-  border-bottom: 0.25rem dotted var(--b3-theme-secondary);
-  padding-right: 0.2rem;
 }
 
 .protyle-wysiwyg .h5::before {
   content: "H5";
-  border-bottom: 0.2rem dotted var(--b3-theme-secondary);
 }
 
 .protyle-wysiwyg .h6::before {
