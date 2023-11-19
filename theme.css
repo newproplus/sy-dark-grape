@@ -48,4 +48,7 @@
   --b3-protyle-inline-mark-background: var(--b3-theme-primary-lighter);
   --b3-protyle-inline-tag-color: var(--b3-theme-on-secondary);
   --b3-protyle-inline-blockref-color: var(--b3-theme-on-secondary);
+
+  /* 自定义颜色 */
+  --x-gray: rgb(146, 151, 213);
 }
