@@ -21,7 +21,7 @@
 /* 超级块 */
 .protyle-wysiwyg div[data-type="NodeSuperBlock"] {
   padding: 2px 5px !important;
-  border: 1px dashed var(--b3-theme-primary-lightest);
+  border: 1px dashed var(--b3-theme-secondary);
   background-color: var(--b3-theme-background-light);
   border-radius: 0px;
 }
