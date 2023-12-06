@@ -44,7 +44,3 @@ span[data-type="tag"]::before {
   color: var(--b3-theme-secondary);
   font-weight: 700;
 }
-
-.protyle-wysiwyg [data-node-id] span[data-type~="tag"] {
-  color: var(--b3-theme-primary);
-}
