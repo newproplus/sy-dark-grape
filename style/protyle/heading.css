@@ -29,26 +29,32 @@
 
 .protyle-wysiwyg .h1::before {
   content: "H1";
+  border-width: 1rem;
 }
 
 .protyle-wysiwyg .h2::before {
   content: "H2";
+  border-width: 0.8rem;
 }
 
 .protyle-wysiwyg .h3::before {
   content: "H3";
+  border-width: 0.6rem;
 }
 
 .protyle-wysiwyg .h4::before {
   content: "H4";
+  border-width: 0.4rem;
 }
 
 .protyle-wysiwyg .h5::before {
   content: "H5";
+  border-width: 0.2rem;
 }
 
 .protyle-wysiwyg .h6::before {
   content: "H6";
+  border-width: 0.1rem;
 }
 
 /* 折叠状态的图标 */
