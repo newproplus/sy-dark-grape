@@ -39,8 +39,7 @@ a {
 }
 
 /* tag */
-span[data-type="tag"]::before,
-span[data-type="tag"]::after {
+span[data-type="tag"]::before {
   content: "#";
   color: var(--b3-theme-secondary);
   font-weight: 700;
