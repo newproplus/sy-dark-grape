@@ -2,7 +2,7 @@
   "name": "sy-dark-grape",
   "author": "newproplus",
   "url": "https://github.com/newproplus/sy-dark-grape",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "minAppVersion": "2.9.5",
   "displayName": {
     "default": "Dark grape",
@@ -21,7 +21,7 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://afdian.net/a/flutenote"
+      "https://afdian.net/a/newproplus"
     ]
   },
   "modes": [
