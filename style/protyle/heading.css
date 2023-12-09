@@ -34,8 +34,8 @@
 
 .protyle-wysiwyg .h2::before {
   content: "H2";
-  border-width: 0.5rem;
-  border-bottom-style: double;
+  border-width: 0.3rem;
+  border-bottom-style: dashed;
 }
 
 .protyle-wysiwyg .h3::before {
@@ -52,14 +52,14 @@
 
 .protyle-wysiwyg .h5::before {
   content: "H5";
-  border-width: 0.1rem;
-  border-bottom-style: solid;
+  border-width: 0.15rem;
+  border-bottom-style: dotted;
 }
 
 .protyle-wysiwyg .h6::before {
   content: "H6";
-  border-width: 0.15rem;
-  border-bottom-style: dotted;
+  border-width: 0.2rem;
+  border-bottom-style: outset;
 }
 
 /* 折叠状态的图标 */
