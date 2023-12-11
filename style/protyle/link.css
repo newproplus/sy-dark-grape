@@ -42,8 +42,12 @@
 }
 
 /* tag */
-span[data-type="tag"]::before {
-  content: "#";
+.protyle-wysiwyg [data-node-id] span[data-type~=tag] {
+  border-bottom-style: dashed;
+}
+
+.protyle-wysiwyg [data-node-id] span[data-type="tag"]::before {
+  content: "🏷";
   color: var(--b3-theme-secondary);
   font-weight: 700;
 }
