@@ -4,12 +4,16 @@
 
 ![avatar](preview.png)
 
-The characteristics of this theme are as follows:
+## Main features
 
-* Do not modify the style of the user's text within the editor
+* Use most of the default style of Siyuan Notes and only modify necessary styles.
 
-* There are very few styles in the editor that differ from the default style, such as the font color of the bullet in the list and the background color of the table header.
+* Does not modify the style of user text (regular text), only the colors and background colors of bullet/header and code block/link/reference differ from the default style.
 
-* Contains only CSS styles, no risk
+* Use colors to clarify the various elements of the interface, increase gradient and semi-transparent effects, and avoid visual fatigue in dark mode.
 
-Based on [sy-dark-purple](https://github.com/frostime/sy-dark-purple) 0.4.10, and significantly modified the color scheme.
+* The main parts are in various purple, while the embellishments are in green.
+
+## Recommended fonts
+
+"Libration Mono": There are clearly differences between "I L i l", and displays well in bold and symbols.
