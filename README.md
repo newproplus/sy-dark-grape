@@ -16,4 +16,4 @@
 
 ## Recommended fonts
 
-"Libration Mono": There are clearly differences between "I L i l", and displays well in bold and symbols.
+"Libration Mono": There are clearly differences between "I L i l 1", and displays well in bold and symbols.

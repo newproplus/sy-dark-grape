@@ -58,8 +58,8 @@
 
 .protyle-wysiwyg .h6::before {
   content: "H6";
-  border-width: 0.2rem;
-  border-bottom-style: outset;
+  border-width: 1px;
+  border-bottom-style: solid;
 }
 
 /* 折叠状态的图标 */

@@ -16,4 +16,4 @@
 
 ## 推荐的字体
 
-"Libration Mono": 对于“I L i l”有明显的区别，并且粗体和符号显示得很好。
+"Libration Mono": 对于“I L i l 1”有明显的区别，并且粗体和符号显示得很好。
