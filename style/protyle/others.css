@@ -52,8 +52,12 @@
 }
 
 /* 分隔符*/
+.protyle-wysiwyg [data-node-id].hr {
+  padding: 0 2rem;
+}
+
 .protyle-wysiwyg [data-node-id].hr>div::after {
-  border-bottom: 0.2rem dotted var(--b3-theme-secondary);
+  border-bottom: 1px dashed var(--b3-theme-secondary);
 }
 
 /* 键盘 */
